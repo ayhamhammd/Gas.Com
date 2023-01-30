@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerActivity"
+    android:id="@+id/drawerLayout"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#00cccb">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/firstCard"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="horizontal"
+           android:gravity="center"
+           >
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/gas"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/firstSellerNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:text="name"
+                />
+            <TextView
+                android:id="@+id/firstSellerLocationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#706F6F"
+                android:textSize="20sp"
+                android:text="location"
+                /><LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cylinders: "
+                /><TextView
+            android:id="@+id/firstCardCyl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/secondCard"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gas"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/secondSellerNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:text="name"
+                />
+            <TextView
+                android:id="@+id/secondSellerLocationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#706F6F"
+                android:textSize="20sp"
+                android:text="location"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cylinders: "
+                    /><TextView
+                android:id="@+id/secondCardCyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/thirdCard"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gas"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/thirdSellerNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:text="name"
+                />
+            <TextView
+                android:id="@+id/thirdSellerLocationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#706F6F"
+                android:textSize="20sp"
+                android:text="location"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cylinders: "
+                    /><TextView
+                android:id="@+id/thirdCardCyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fourthCard"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/gas"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/fourthSellerNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:text="name"
+                />
+            <TextView
+                android:id="@+id/fourthSellerLocationTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#706F6F"
+                android:textSize="20sp"
+                android:text="location"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cylinders: "
+                    /><TextView
+                android:id="@+id/fourthCardCyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    <Button
+        android:id="@+id/refreshBtn"
+        android:text="Refresh"
+        android:textStyle="bold|normal"
+        android:textSize="16sp"
+        android:textAllCaps="true"
+        app:backgroundTint="#32bd38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/nav_minue"
+        app:headerLayout="@layout/nav_header"
+        android:layout_gravity="start"
+        android:id="@+id/navView"
+        />
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

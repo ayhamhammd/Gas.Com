@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/name_of_customer"
+        android:title="name"/>
+    <item
+        android:id="@+id/phoneNumber_of_customer"
+        android:title="phone number">
+
+    </item>
+
+    <item
+        android:id="@+id/balance"
+        android:title="balance"
+        />
+    <item
+        android:id="@+id/sign_out"
+        android:title="Sign Out"
+        />
+</menu>

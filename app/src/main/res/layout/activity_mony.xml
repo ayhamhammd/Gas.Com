@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mony"
+    android:gravity="center"
+    android:background="#f2f7f4">
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter Card Number"
+                android:textStyle="bold|normal"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_shap"
+                android:ems="1"
+                android:hint="XXXX XXXX XXXX XXXX"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name on the card "
+                android:textStyle="bold|normal"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_shap"
+                android:ems="1"
+                android:hint="ex.Ayham Hammad"
+                android:inputType="textCapCharacters"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Security Number"
+                android:textStyle="bold|normal"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_shap"
+                android:ems="1"
+                android:hint="311"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expiry Date"
+                android:textStyle="bold|normal"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_shap"
+                android:ems="1"
+                android:hint="02/23"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Much you wanna Deposit?"
+                android:textStyle="bold|normal"
+                />
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/background_shap"
+                android:ems="1"
+                android:hint="ex.10"
+                android:inputType="phone"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="20sp"
+                android:textStyle="bold|normal" />
+            <Button
+                android:id="@+id/MonyBtn"
+                android:text="Verify"
+                android:textStyle="bold|normal"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                app:backgroundTint="#32bd38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

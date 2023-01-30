@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "9330274175",
+    "project_id": "social-ace2e",
+    "storage_bucket": "social-ace2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9330274175:android:286ca1bccdd7e5e235b44a",
+        "android_client_info": {
+          "package_name": "com.blogspot.atifsoftwares.messegingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9330274175-q5ot9uo2di8p6tab1codu110nef6n2nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blogspot.atifsoftwares.messegingapp",
+            "certificate_hash": "987b9893e7632ea95a34507ec2a0e62fa4a0edae"
+          }
+        },
+        {
+          "client_id": "9330274175-akjmjuv23svgqsfd441haevkgm7a41aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtMvjfyuXjFq-YbRuWkP2-WEiAGcdgvK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9330274175-akjmjuv23svgqsfd441haevkgm7a41aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
